@@ -1,5 +1,8 @@
 {
+  "name": "pr0xy123",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-  "start": "node index.js"
+    "start": "node index.js"
   }
 }
