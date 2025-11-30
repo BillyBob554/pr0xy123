@@ -7,7 +7,7 @@ import fetch from 'node-fetch';  // Make sure to install 'node-fetch' package
 const app = express();
 const server = http.createServer(app);
 const __dirname = process.cwd();
-const PORT = 8080;
+const PORT = process.env.PORT || 8080;
 const bareServer = createBareServer('/outerspace/');
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
